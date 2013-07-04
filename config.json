@@ -1,0 +1,16 @@
+{
+  "routes":
+  [
+    { "path": "/", "callback": "application#index" },
+      { "path": "/login", "method": "POST", "callback": "application#login" },
+      { "path": "/access", "callback": "application#access" }
+  ],
+  "filters":
+  [
+  	 { "path": "/", "callback": "" }
+  ],
+  "websockets":
+  [
+  	{ "event": "", "callback": ""}
+  ]
+}
